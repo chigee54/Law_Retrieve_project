@@ -59,7 +59,7 @@ public class testES {
     }
 
 
-//批量插入文档
+//批量插入文档   随便输入几条文档用来测试
     @Test
     public void test4(){
         List<Sentence> list = new ArrayList<>();
