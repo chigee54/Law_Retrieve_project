@@ -1,0 +1,246 @@
+<html>
+	<head>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+	<title>模仿中国裁判文书网首页</title>
+	</head>
+		<style>
+	body{
+		background-color:#FFDDAA;
+	}
+    .searchcon {
+        width: 400px;
+        height: 40px;
+        margin: 50px auto;
+    }
+
+    .parent {
+        width: 100%;
+        height: 32px;
+        top: 4px;
+        position: relative;
+    }
+
+    .parent>input:first-of-type {
+        /*输入框高度设置为40px, border占据2px，总高度为42px*/
+        width: 380px;
+        height: 40px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        outline: none;
+    }
+
+    .parent>input:first-of-type:focus {
+        border: 1px solid #317ef3;
+        padding-left: 10px;
+    }
+
+    .parent>input:last-of-type {
+        /*button按钮border并不占据外围大小，设置高度42px*/
+        width: 100px;
+        height: 42px;
+        position: absolute;
+        background: #317ef3;
+        border: 1px solid #317ef3;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+    }
+	
+	#shousuo a{
+		font-family: Verdana, Geneva, Arial, sans-serif;
+		font-size:1.5em;
+		color:white;
+		}
+		
+	#shousuo a:hover{
+		background:white;
+		color:black;
+		}
+		
+	#zhong{
+		height:500px;
+		margin-top:0px;
+		text-align:center;
+		background-color:red;
+		}
+
+	#zw li{float:left;}	
+	
+	#zw{list-style:none;}
+	
+	#xz li{float:left;}
+	
+	
+	#bod{
+		border-width:thin;
+		border-style:solid;
+		boder-color:white;
+		background-color:#FFDDAA;
+		height:150px;
+		width: 1000px;
+		margin-left:150px;
+		text-align:center;
+		}
+		
+	#zw a{
+		font-family: Verdana, Geneva, Arial, sans-serif;
+		font-size:1.1em;
+		color:#FF3333;
+		}
+		
+	#xz li{
+		font-family: Verdana, Geneva, Arial, sans-serif;
+		font-size:0.8em;
+		}
+	
+	#xz{
+		line-height:20px;
+		}
+		
+	#fin li{float:left;}
+	
+	#fin {list-style:none;}
+	
+	#fin{
+		line-height:30px;
+		}
+	
+	#final a{
+		font-family: Verdana, Geneva, Arial, sans-serif;
+		font-size:1em;
+		color:#FFDDAA;
+		}
+		
+	#final {
+		margin-top:50px;
+		text-align:center;
+		background-color:red;
+		padding-top:2px;
+		}
+	
+	#final p{
+		font-family: Verdana, Geneva, Arial, sans-serif;
+		font-size:0.8em;
+		color:#FFDDAA;
+		line-height:20px;
+		}
+</style>
+	
+			<body>
+			<div id='zhong'>
+				<div id='logo'>
+				<img src="https://wenshu.court.gov.cn/website/wenshu/images/logo.png"><br><br><br><br>
+				</div>
+				
+				<div id='shousuo'>
+					<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">首页&nbsp;&nbsp;&nbsp;</a>
+					<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">刑事案件&nbsp;&nbsp;&nbsp;</a>
+					<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">民事案件&nbsp;&nbsp;&nbsp;</a>
+					<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">行政案件&nbsp;&nbsp;&nbsp;</a>
+					<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">赔偿案件&nbsp;&nbsp;&nbsp;</a>
+					<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">执行案件&nbsp;&nbsp;&nbsp;</a>
+					<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">其他案件&nbsp;&nbsp;&nbsp;</a>
+					<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">民族语言文书&nbsp;&nbsp;&nbsp;</a>
+				</div>
+				<!--搜索框-->
+				<div class="searchcon">
+					<form action="" class="parent">
+					<input type="text">
+					<input type="button" value="搜索">
+					</form>
+				</div>
+				
+				<div id='logo2'>
+				<img src="https://wenshu.court.gov.cn/website/wenshu/images/slogan.png">
+				</div>
+				</div>
+				<br><br>
+				<div id='bod'>
+					<div id='zhengwen'>
+						<ul id='zw'>
+							<li>
+								<span style="margin-right:200px;">
+								<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">今日新增xxx篇</a>
+								</span>
+							</li>
+							<li>
+								<span style="margin-right:200px;">
+								<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">文书总量xxx篇</a>
+								</span>
+							</li>
+							<li>
+								<span style="margin-right:200px;">
+								<a href="https://wenshu.court.gov.cn" style="text-decoration:none;">访问总量xxx次</a>
+								</span>
+							</li>
+							</ul>
+						</div>
+						<br><br>
+					<div id='xiaozi'>
+						<ul id='xz'>
+							<li>民事文书xxx篇<span style="margin-right:200px;"></span></li>
+							
+							<li>刑事文书xxx篇<span style="margin-right:200px;"></span>
+							</li>
+							<li>行政文书xxx篇<span style="margin-right:200px;"></span>
+							</li>
+							<li>赔偿文书xxx篇<span style="margin-right:200px;"></span>
+							</li>
+							<li>执行文书xxx篇<span style="margin-right:200px;"></span>
+							</li>
+							<li>其他文书xxx篇<span style="margin-right:200px;"></span>
+							</li>
+						<ul>
+					</div>
+					</div>
+					<div id='final'>
+						<ul id='fin'>
+							<li>
+								<span style="margin-left:200px;">
+								<a href="http://govinfo.nlc.cn/lmzz" style="text-decoration:none;">|中国政府公开信息整合服务平台</a>
+								</span>
+							</li>
+							<li>
+								<a href="http://www.ajxxgk.jcy.cn/html/index.html" style="text-decoration:none;">|人民检察院案件信息公开网</a>
+							</li>
+							<li>
+								<a href="https://splcgk.court.gov.cn/gzfwww/" style="text-decoration:none;">|中国审判流程信息公开网</a>
+							</li>
+							<li>
+								<span style="margin-right:200px;">
+								<a href="http://data.court.gov.cn/pages/research.html/" style="text-decoration:none;">|中国司法大数据服务网|</a>
+								</span>
+							</li>
+							<li>
+							<span style="margin-left:150px;">
+								<a href="http://shixin.court.gov.cn/" style="text-decoration:none;">|中国执行信息公开网</a>
+								</span>
+							</li>
+							<li>
+							<a href="http://jxjs.court.gov.cn/" style="text-decoration:none;">|全国法院减刑、假释、暂予监外执行信息网</a>
+							</li>
+							<li>
+							<a href="http://ccmt.court.gov.cn/" style="text-decoration:none;">|中国涉外商事海事审判网</a>
+							</li>
+							<li>
+							<span style="margin-right:160px;">
+								<a href="http://cjdh.court.gov.cn/" style="text-decoration:none;">|中国政府公开信息整合服务平台|</a>
+								</span>
+							</li>
+						</ul>
+						<br>
+						<p>
+						<br>地址：北京市东城区东郊民巷27号&nbsp;&nbsp;邮编：100745&nbsp;&nbsp;总机：010-67550114
+						<br>
+						中华人民共和国最高人民法院&nbsp;版权所有
+						<br>
+						京ICP备05023036号
+					</div>
+
+				
+				
+				
+				
+			</body>
+</html>
